@@ -66,22 +66,19 @@ This project is split into three parts: The Transmitter (C++), the Gateway (C++)
 ### Flash the ESP32s
 * Open the Arduino IDE.
 * Install the DHT sensor library by Adafruit and the PubSubClient library via the Library Manager.
-* Open Node_A_Transmitter.ino, verify the DHT pin (GPIO 4), and upload it to your first ESP32.
-* Open Node_B_Gateway.ino. Update your Wi-Fi SSID and Password at the top of the file, then upload it to your second ESP32.
+* Open `Node_A_Transmitter.ino`, verify the DHT pin (GPIO 4), and upload it to your first ESP32.
+* Open `Node_B_Gateway.ino`. Update your Wi-Fi SSID and Password at the top of the file, then upload it to your second ESP32.
 
 ### Run the Web Dashboard
 * You will need Python installed on your computer.
 * Open your computer's terminal or command prompt.
 * Install the required Python libraries by running:
+`pip install Flask Flask-SocketIO paho-mqtt`
 
-pip install Flask Flask-SocketIO paho-mqtt
-Navigate to the folder containing app.py and the templates folder.
-
-Run the server:
-
-Bash
-python app.py
-Open your web browser and go to http://127.0.0.1:5000.
+* Navigate to the folder containing app.py and the templates folder.
+* Run the server:
+`python app.py`
+* Open your web browser and go to http://127.0.0.1:5000.
 
 Interpreting the Output
 As soon as Node A is powered on, it will broadcast JSON via LoRa.
