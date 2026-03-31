@@ -75,7 +75,7 @@ This project is split into three parts: The Transmitter (C++), the Gateway (C++)
 * Install the required Python libraries by running:
 `pip install Flask Flask-SocketIO paho-mqtt`
 
-* Navigate to the folder containing app.py and the templates folder.
+* Navigate to the folder `Web_Dashboard` containing `app.py` and the `templates` folder.
 * Run the server:
 `python app.py`
 * Open your web browser and go to http://127.0.0.1:5000.
