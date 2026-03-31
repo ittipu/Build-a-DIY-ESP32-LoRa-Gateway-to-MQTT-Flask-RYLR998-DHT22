@@ -80,11 +80,12 @@ This project is split into three parts: The Transmitter (C++), the Gateway (C++)
 `python app.py`
 * Open your web browser and go to http://127.0.0.1:5000.
 
-Interpreting the Output
+### Interpreting the Output
 As soon as Node A is powered on, it will broadcast JSON via LoRa.
 Open the Serial Monitor on Node B (The Gateway), and you will see it process the data and bridge it to Wi-Fi:
-
-Plaintext
+```text
 Raw LoRa Received: +RCV=0,31,{"temp":28.4,"humidity":55.2},-85,40
 Published to MQTT: {"temp":28.4,"humidity":55.2,"rssi":-85}
+```
 Instantly, your Flask dashboard will catch the MQTT message, flash green, and update the charts in real-time!
+![Dashboard](LoRa_Gateway_Dashboard.png)
