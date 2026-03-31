@@ -1,4 +1,4 @@
-# Build a DIY ESP32 LoRa Gateway to MQTT & Flask | RYLR998 & DHT22
+# Build a DIY ESP32 LoRa Gateway to MQTT & Flask | RYLR998 & DHT11
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Platform](https://img.shields.io/badge/platform-ESP32-green.svg) ![Python](https://img.shields.io/badge/python-3.x-blue.svg) ![Flask](https://img.shields.io/badge/framework-Flask-black.svg)
 
