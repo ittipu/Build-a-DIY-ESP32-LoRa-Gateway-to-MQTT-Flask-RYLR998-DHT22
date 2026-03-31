@@ -30,6 +30,7 @@ To make things easy, **the RYLR998 wiring is exactly the same as our P2P tutoria
 | **GND** | GND       | Ground   |
 | **TX** | GPIO 16   | RX2      |
 | **RX** | GPIO 17   | TX2      |
+![LoRa Gateway](lora_gateway_circuit_diagram.png)
 
 ### Node A ONLY (DHT22 Wiring)
 | DHT22 Pin | ESP32 Pin | Function |
@@ -37,6 +38,7 @@ To make things easy, **the RYLR998 wiring is exactly the same as our P2P tutoria
 | **VCC** | 3.3V      | Power    |
 | **GND** | GND       | Ground   |
 | **DATA** | GPIO 4    | Sensor Data |
+![LoRa Sensor Node](sensor_node_circuit_diagram.png)
 
 > **Note:** Ensure your antennas are firmly connected to the RYLR998 modules before powering them on to avoid damaging the RF chips.
 
